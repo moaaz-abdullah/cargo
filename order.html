@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Cargo</title>
+</head>
+
+<body>
+    
+    <!--HEADER SECTION STARTS HERE-->
+    <header class="header">
+        <a href="#" class="logo">Car<span>go</span></a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="Manufacturers.html">Manufacturers</a>
+            <a href="contact-us.html">Contact us</a>
+        </nav>
+        <div>
+            <a href="order.html" class="order_bt">Order now!</a>
+        </div>
+    </header>
+
+
+    <h1 class="title" style="padding-top: 60px;">Order a <span>&nbsp;car</span></h1>
+
+    <section class="booking">
+        <form action="http://localhost/server/order-form.php" method="post" class="order-form">
+            <div class="flex">
+                <div class="inputBox">
+                    <span1>Your Name :</span1>
+                    <input type="text" placeholder="Enter your Name" name="name" required="required" />
+                </div>
+                <div class="inputBox">
+                    <span1>Contact Number :</span1>
+                    <input type="text" placeholder="Enter your Phone " name="phone" required="required" />
+                </div>
+                <div class="inputBox">
+                    <span1>Your E-mail :</span1>
+                    <input type="text" placeholder="Enter your E-mail" name="mail" />
+                </div>
+                <div class="inputBox">
+                    <span1>Your Address :</span1>
+                    <input type="text" placeholder="Enter your Address" name="address" required="required" />
+                </div>
+
+                <div class="inputBox">
+                    <span1>Car Model Name :</span1>
+                    <input type="text" placeholder="Enter a Model Name" name="model" required="required" />
+                </div>
+                <div class="inputBox">
+                    <span1>Car Manufacture :</span1>
+                    <input type="text" placeholder="Enter a Manufacture Name" name="manufacture" required="required" />
+                </div>
+            </div>
+            <input type="submit" value="Submit" class="btn" name="send">
+        </form>
+    </section>
+
+     <!--FOOTER STARTS HERE-->
+     <section class="footer">
+        <div class="dp">
+            Car<span>go</span>
+        </div>
+        <p>Follow us on : </p>
+        <div class="social-icons2">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <p class="end">CopyRights are reserved to Cargo</p>
+    </section>
+
+
+
+</body>
+
+</html>
