@@ -76,7 +76,7 @@ The platform simulates a real-world car showroom experience online, where users 
 
 ## 📌 Notes
 
-This project is part of my journey to strengthen my front-end development skills and build practical, real-world applications. It was also my first project in web development, built during my academic years—specifically in my second year of college.
+This project was my first web development project, built as a college assignment during my second year, when I had no prior experience in web development.
 
 ---
 
