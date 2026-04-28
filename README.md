@@ -70,13 +70,13 @@ The platform simulates a real-world car showroom experience online, where users 
 
 ## 🔗 Live Demo
 
-[*(Add your deployed link – GitHub Pages / Netlify / Vercel)*](https://moaaz-abdullah.github.io/cargo/)
+[(https://moaaz-abdullah.github.io/cargo/)](https://moaaz-abdullah.github.io/cargo/)
 
 ---
 
 ## 📌 Notes
 
-This project is part of my journey to strengthen my front-end development skills and build practical, real-world applications.
+This project is part of my journey to strengthen my front-end development skills and build practical, real-world applications. It was also my first project in web development, built during my academic years—specifically in my second year of college.
 
 ---
 
